@@ -1,0 +1,26 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/graffiti/node_modules
+
+# testing
+/graffiti/coverage
+
+# production
+/graffiti/build
+
+# misc
+/graffiti/.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+#firebase
+/graffiti/.firebase
+/graffiti/.firebaserc
+/graffiti/firebase.json
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
