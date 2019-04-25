@@ -5,6 +5,7 @@ import Program from './Program'
 import Team from './Team'
 import Promo from './Promo'
 import Price from './Price'
+import Footer from './Footer'
 
 class Home extends Component {
     render() {
@@ -13,9 +14,10 @@ class Home extends Component {
                 <Slider />
                 <About />
                 <Program />
+                <Price />
                 <Team />
                 <Promo />
-                <Price />
+                <Footer />
             </div>
         )
     }

@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+html,body {
+    font-family: nanumgothic !important;
+}
+
 /* Navigation */
 
 #nav-bar {
@@ -39,13 +44,16 @@
 #slider{
   width: 100%;
 }
+#slider img{
+  width: 100%;
+}
 .carousel-caption{
   top: 50%;
   transform: translateY(-50%);
   bottom: initial!important;
 }
 .carousel-caption h4{
-  color: #55efc4;
+  color: #ecf0f1;
   font-size: 70px;
 }
 .carousel-caption h5{
@@ -63,6 +71,9 @@
 #about .btn{
   margin-top: 20px;
   margin-bottom: 30px;
+}
+#about img{
+  width: 80%;
 }
 .about-content{
   padding-top: 20px;
@@ -82,7 +93,7 @@
 /* Services */
 
 #program{
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url();
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
   background-size: cover;
   background-position: center;
   color: #efefef !important;
@@ -103,24 +114,36 @@
   width: 170px;
   margin: 20px auto 5px;
 }
+#program img{
+  width: 80%;
+}
 .program{
   margin-top: 40px;
 }
+.time {
+  margin-top: 40px;
+}
+.program::after{
+  content: '';
+  background: #7f8c8d;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
 .icon{
-  font-size: 40px;
+  font-size: 100px;
   margin: 20px auto;
   padding: 20px;
-  height: 80px;
-  width: 80px;
-  border: 1px solid #fff;
-  border-radius: 50%;
+  height: 200px;
+  width: 200px;
 }
 #program p{
   font-size: 14px;
   margin-top: 20px;
   color: #ccc;
 }
-.program .col-md-3:hover{
+.program .col-md-6:hover{
   background: #007bff;
   cursor: pointer;
   transition: 0.7s;
@@ -249,7 +272,7 @@ h1:after{
 }
 .price-head p{
   font-size: 25px;
-  color: #ccc;
+  color: #ecf0f1;
   font-weight: bold;
   line-height: 30px;
 }
@@ -302,4 +325,16 @@ ul li:last-child{
 a{
   text-decoration: none!important;
   color: #fff!important;
+}
+
+/* Footer */
+#footer{
+  background: #333;
+  color: #fff;
+  padding: 12px;
+}
+
+.fa-heart{
+  margin: 3px;
+  color: red;
 }

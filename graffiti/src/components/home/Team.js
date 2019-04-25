@@ -1,4 +1,5 @@
 import React from 'react'
+import member1 from '../../assets/img/member1.png'
 
 const Team = () => {
     return (
@@ -9,7 +10,7 @@ const Team = () => {
     <div class="row">
       <div class="col-md-3 profile-pic text-center">
         <div class="img-box">
-          {/* <img src="{% static 'gra/img/member1.png' %}" class="img-responsive"> */}
+          <img src={member1} class="img-responsive" />
           <ul>
             <a href="#"></a><li><i class="fab fa-adobe"></i></li>
             <a href="#"></a><li><i class="fab fa-facebook"></i></li>
@@ -22,7 +23,7 @@ const Team = () => {
         </div>
         <div class="col-md-3 profile-pic text-center">
         <div class="img-box">
-          {/* <img src="{% static 'gra/img/member1.png' %}" class="img-responsive"> */}
+        <img src={member1} class="img-responsive" />
           <ul>
             <a href="#"></a><li><i class="fab fa-adobe"></i></li>
             <a href="#"></a><li><i class="fab fa-facebook"></i></li>
@@ -35,7 +36,7 @@ const Team = () => {
         </div>
         <div class="col-md-3 profile-pic text-center">
         <div class="img-box">
-          {/* <img src="{% static 'gra/img/member1.png' %}" class="img-responsive"> */}
+        <img src={member1} class="img-responsive" />
           <ul>
             <a href="#"></a><li><i class="fab fa-adobe"></i></li>
             <a href="#"></a><li><i class="fab fa-facebook"></i></li>
@@ -48,7 +49,7 @@ const Team = () => {
         </div>
         <div class="col-md-3 profile-pic text-center">
         <div class="img-box">
-          {/* <img src="{% static 'gra/img/member1.png' %}" class="img-responsive"> */}
+        <img src={member1} class="img-responsive" />
           <ul>
             <a href="#"></a><li><i class="fab fa-adobe"></i></li>
             <a href="#"></a><li><i class="fab fa-facebook"></i></li>

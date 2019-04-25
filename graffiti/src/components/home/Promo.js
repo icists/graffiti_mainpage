@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Promo = () => {
+const Contct = () => {
     return(
         
 <section id="promo">
@@ -12,4 +12,4 @@ const Promo = () => {
     )
 }
 
-export default Promo
+export default Contct

@@ -5,13 +5,13 @@ const Price = () => {
         
 <section id="price">
   <div class="container">
-    <h1>Price Plan</h1>
+    <h1>Price</h1>
     <div class="row">
       <div class="col-md-6">
         <div class="single-price">
           <div class="price-head">
-            <h2>Free</h2>
-            <p>$0/<span>month</span></p>
+            <h2>스타트업</h2>
+            <p>100,000\</p>
           </div>
           <div class="price-content">
             <ul>
@@ -23,15 +23,15 @@ const Price = () => {
             </ul>
           </div>
           <div class="price-button">
-            <a href="#" class="buy-btn">Join Free</a>
+            <a href="#" class="buy-btn">Apply Startup</a>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="single-price">
           <div class="price-head">
-            <h2>Free</h2>
-            <p>$0/<span>month</span></p>
+            <h2>개인</h2>
+            <p>5,000\</p>
           </div>
           <div class="price-content">
             <ul>
