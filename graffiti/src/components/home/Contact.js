@@ -1,9 +1,65 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { Form, FormGroup, Input, Label, Button } from 'reactstrap'
 
-const Contact = () => {
-    return (
-        <h3>heloo</h3>
-    )
+class Contact extends Component {
+    render(){
+        return (
+<section id="contact">
+    <div className="container">
+    <h1>Contact</h1>
+    <div className="row">
+        <div className="col-md-6">
+        
+        <Form className="contact-form" style={{ width: '600px'}}>
+            <div className="form-group">
+            <FormGroup>
+                <Label for="name">Name:</Label>
+                <Input
+                    type="text"
+                    name ="name"
+                    placeholder="Your Name"
+                    />
+            </FormGroup>
+            </div>
+            
+            <div className="form-group">
+            <FormGroup>
+                <Label for="name">Phone Number:</Label>
+                <Input
+                    type="number"
+                    name ="phone"
+                    placeholder="Phone no."
+                    />
+            </FormGroup>
+            </div>
+            
+            <div className="form-group">
+            <FormGroup>
+                <Label for="email">Email:</Label>
+                <Input
+                    type="email"
+                    name ="email"
+                    placeholder="Email id"
+                    />
+            </FormGroup>
+            </div>
+
+            <div className="form-group">
+            <FormGroup>
+                <Label for="message">Message:</Label>
+                <textarea rows="4" className="form-control text-uppercase">Message</textarea>
+            </FormGroup>
+            </div>
+
+            
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </Form>
+        </div>
+    </div>
+    </div>
+</section>
+        );
+    }
 }
 
 export default Contact

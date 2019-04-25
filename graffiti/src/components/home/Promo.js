@@ -6,7 +6,8 @@ const Contct = () => {
 <section id="promo">
   <div class="container">
     <p>Startup Festival!</p>
-    <a href="#" class="btn btn-primary">Contact Us</a>
+    <a href="#apply" class="btn btn-primary" style={{marginRight: '20px'}}>Apply</a>
+    <a href="#contact" class="btn btn-primary">Contact Us</a>
   </div>
 </section>
     )

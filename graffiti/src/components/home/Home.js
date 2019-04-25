@@ -5,6 +5,7 @@ import Program from './Program'
 import Team from './Team'
 import Promo from './Promo'
 import Price from './Price'
+import Contact from './Contact'
 import Footer from './Footer'
 
 class Home extends Component {
@@ -12,11 +13,12 @@ class Home extends Component {
         return (
             <div>
                 <Slider />
+                <Promo />
                 <About />
                 <Program />
                 <Price />
                 <Team />
-                <Promo />
+                <Contact />
                 <Footer />
             </div>
         )
