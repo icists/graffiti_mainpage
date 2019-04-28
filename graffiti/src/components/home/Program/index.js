@@ -1,6 +1,6 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
-import timetable from '../../assets/img/timetable.png'
+import timetable from '../../../assets/img/timetable.png'
 
 const Program = () => {
     return (

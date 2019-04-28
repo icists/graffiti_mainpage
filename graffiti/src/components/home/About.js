@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import poster from '../../assets/img/poster.jpg'
 
 const About = () => {

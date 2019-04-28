@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Navbar from './components/layout/Navbar'
-import Home from './components/home/Home'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
 
 class App extends Component {
     render() {
         return (
             <BrowserRouter>
-                <div className="App">
-                    <Navbar />
+                <Navbar />
+                    <div className="App container-fluid">
                     <Switch>
                         <Route exact path='/' component={Home} />
                     </Switch>
-                </div>
+                    </div>
             </BrowserRouter>
         );
     }

@@ -9,12 +9,13 @@ html,body {
 }
 
 /* Navigation */
-
 #nav-bar {
-  position: sticky;
   top: 0;
   z-index: 10;
-} 
+}
+.nav-css{
+  border-bottom: 1px solide grid;
+}
 .navbar-brand img{
   height: 40px;
   padding-left: 30px;
@@ -40,25 +41,34 @@ html,body {
   font-weight: 600;
   font-size: 16px;
 }
-/* Slider */
-#slider{
+/* mainimg */
+#main-img{
   width: 100%;
-}
-#slider img{
-  width: 100%;
-}
-.carousel-caption{
-  top: 50%;
-  transform: translateY(-50%);
-  bottom: initial!important;
-}
-.carousel-caption h4{
-  color: #ecf0f1;
-  font-size: 70px;
-}
-.carousel-caption h5{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./assets/img/slideimg.jpg);
+  background-size: cover;
+  background-position: center;
   color: #fff;
-  font-size: 50px;
+  background-attachment: fixed;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 55px;
+}
+#main-img img{
+  width: 100%;
+}
+.main-img-top{
+  margin-bottom: 0px;
+}
+.main-img-bottom{
+  margin-bottom: 60px;
+}
+#main-img button{
+  height: 60px;
+  width: 150px;
+  border: none;
+  font-size: 20px;
 }
 
 /* About  */
@@ -227,7 +237,7 @@ h1:after{
 /* Promo */
 
 #promo{
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ;
   background-size: cover;
   background-position: center;
   color: #fff;
