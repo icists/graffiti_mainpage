@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
-import { Form, FormGroup, Input, Label, Button } from 'reactstrap'
+import { Form, FormGroup, Input, Label } from 'reactstrap'
 
 class Contact extends Component {
     render(){
         return (
 <section id="contact">
-    <div className="container">
-    <h1>Contact</h1>
+<div className="row">
+<div className="col-lg-2"></div>
+<div className="col-lg-8">
+<h1>Contact</h1>
     <div className="row">
         <div className="col-md-6">
         
@@ -56,7 +58,9 @@ class Contact extends Component {
         </Form>
         </div>
     </div>
-    </div>
+</div>
+<div className="col-lg-2"></div>
+</div>
 </section>
         );
     }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import slide from '../../../assets/img/slideimg.jpg'
+// import slide from '../../../assets/img/slideimg.jpg'
 
 export class MainImg extends Component {
   render() {
@@ -8,7 +8,7 @@ export class MainImg extends Component {
       <div id="main-img">
         <div className="row">
           <div className="col-md-2"></div>
-          <div className="col-md-12">
+          <div className="col-md-8">
           <div>
                 <p className="font-weight-bold text-uppercase main-img-top">So what get started!</p>
                 <p className="font-weight-bold text-uppercase main-img-bottom">So what! Start-up!</p>

@@ -8,7 +8,7 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <Navbar />
-                    <div className="App container-fluid">
+                    <div className="App container-fluid pl-0 pr-0">
                     <Switch>
                         <Route exact path='/' component={Home} />
                     </Switch>

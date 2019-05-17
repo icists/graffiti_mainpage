@@ -5,8 +5,10 @@ import timetable from '../../../assets/img/timetable.png'
 const Program = () => {
     return (
 <section id="program">
-  <div className="container">
-    <h1>Our Program</h1>
+  <div className="row">
+  <div className="col-lg-2"></div>
+  <div className="col-lg-8">
+  <h1>Our Program</h1>
     <div className="row program">
       <div className="col-md-6 text-center">
         <h3>1부</h3>
@@ -32,6 +34,8 @@ const Program = () => {
         <img src={timetable} alt="timetable"/>
       </div>
     </div>
+  </div>
+  <div className="col-lg-2"></div>
   </div>
 </section>
     )

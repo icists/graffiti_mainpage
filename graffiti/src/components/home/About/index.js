@@ -1,12 +1,13 @@
 import React from 'react';
-import poster from '../../assets/img/poster.jpg'
+import poster from '../../../assets/img/poster.jpg'
 
 const About = () => {
     return (
-<section id="about">
-<div className="container">
+<section id="about" className="row">
+  <div className="col-lg-2"></div>
+  <div className="col-lg-8">
   <div className="row">
-    <div className="col-md-6 text-center">
+  <div className="col-md-6 text-center">
       <img src={poster} alt="graffiti poster"/>
     </div>
     <div className="col-md-6">
@@ -41,7 +42,8 @@ const About = () => {
       {/* <button type="button" className="btn btn-primary">Read more</button> */}
     </div>
   </div>
-</div>
+  </div>
+  <div className="col-lg-2"></div>
 </section>
     )
 }

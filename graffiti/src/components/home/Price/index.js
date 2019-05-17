@@ -4,8 +4,10 @@ const Price = () => {
     return (
         
 <section id="price">
-  <div class="container">
-    <h1>Price</h1>
+    <div className="row">
+        <div className="col-lg-2"></div>
+        <div className="col-lg-8">
+        <h1>Price</h1>
     <div class="row">
       <div class="col-md-6">
         <div class="single-price">
@@ -48,7 +50,9 @@ const Price = () => {
         </div>
       </div>
     </div>
-  </div>
+        </div>
+        <div className="col-lg-2"></div>
+    </div>
 </section>
     )
 }
