@@ -8,6 +8,10 @@ html,body {
     font-family: nanumgothic !important;
 }
 
+div{
+  padding: 0;
+}
+
 /* BlockStyle */
 .white-block {
   background: white;
