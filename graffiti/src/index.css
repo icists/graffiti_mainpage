@@ -8,6 +8,13 @@ html,body {
     font-family: nanumgothic !important;
 }
 
+/* BlockStyle */
+.white-block {
+  background: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /* Navigation */
 #nav-bar {
   top: 0;
@@ -132,14 +139,6 @@ html,body {
 }
 .time {
   margin-top: 40px;
-}
-.program::after{
-  content: '';
-  background: #7f8c8d;
-  display: block;
-  height: 3px;
-  width: 170px;
-  margin: 20px auto 5px;
 }
 .icon{
   font-size: 100px;

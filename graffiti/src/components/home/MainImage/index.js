@@ -10,8 +10,7 @@ export class MainImg extends Component {
           <div className="col-md-2"></div>
           <div className="col-md-8">
           <div>
-                <p className="font-weight-bold text-uppercase main-img-top">So what get started!</p>
-                <p className="font-weight-bold text-uppercase main-img-bottom">So what! Start-up!</p>
+                <p className="font-weight-bold text-uppercase main-img-bottom">Whatever you do, Be Crazy!</p>
                 <Link to='/' style={{marginRight : '20px'}}><button type="button" class="btn btn-primary">Apply</button></Link>
                 <Link to='/'><button type="button" class="btn btn-primary">Contact Us</button></Link>
           </div>
