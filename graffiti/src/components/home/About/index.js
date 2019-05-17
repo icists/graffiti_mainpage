@@ -11,7 +11,7 @@ const About = () => {
     <h2 className="text-info text-center text-uppercase">About Graffiti</h2>
     <hr/>
   </div>
-  <div className="col-lg-8">
+  <div className="col-lg-8 pl-0 pr-0">
   <div className="about-content">
     <h3 className="text-uppercase">Graffiti</h3>
     <p>

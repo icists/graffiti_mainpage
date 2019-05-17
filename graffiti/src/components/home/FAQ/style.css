@@ -1,8 +1,9 @@
 .faq-ans{
-  padding-top: 40px;
+  padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px
+  padding-bottom: 30px;
+  background: #f6f6f6;
 }
 .accordion {
   border-radius: 0;
@@ -44,7 +45,8 @@
   overflow: hidden;
 }
 .accordion .accordion-item.active .title {
-  background-color: #eee;
+  font-weight: bold;
+  background: white;
 }
 .accordion .accordion-item.active .title:after {
   content: '\2796';
