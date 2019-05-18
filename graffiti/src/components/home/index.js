@@ -8,19 +8,19 @@ import Contact from './Contact'
 import Footer from './Footer'
 
 class Home extends Component {
-    render() {
-        return (
-            <div>
-                <MainImage />
-                <About />
-                <Program />
-                <Price />
-                <Contact />
-                <FAQ />
-                <Footer />
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <MainImage />
+        <About />
+        <Program />
+        <Price />
+        <Contact />
+        <FAQ />
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default Home

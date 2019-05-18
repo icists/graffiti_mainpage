@@ -7,7 +7,8 @@ const Footer = () => {
             <div className="col-lg-2"></div>
             <div className="col-lg-8">
             <div className="container text-center">
-                <p>Made With<i class="far fa-heart"></i> Seungho</p>
+                <p style={{marginBottom:'5px'}}>N13-1, KAIST 291 DAEHAK-RO, YUSEONG-GU, DAEJEON, KOREA</p>
+                <p>Copyright @ <a href="https://github.com/icists/graffiti_mainpage">2019 Div. Tech & Design</a></p>
             </div>
             </div>
             <div className="col-lg-2"></div>
