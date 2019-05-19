@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="col-lg-2"></div>
         <div className="col-lg-8 pl-0 pr-0">
         <nav className="navbar navbar-expand-lg navbar-light" style={{padding: '0'}}>
-            <Link to='/' className="navbar-brand"><img src={logo} alt="graffiti logo"/></Link>
+            <Link to='/' className="navbar-brand"><img style={{marginTop: '7px'}} src={logo} alt="graffiti logo"/></Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>

@@ -10,8 +10,8 @@ class Contact extends Component {
 <div className="col-lg-8">
 <h1>Contact</h1>
     <div className="row">
-        <div className="col-lg-2"></div>
-        <div className="col-lg-8">
+        <div className="col-lg-6"></div>
+        <div className="col-lg-6">
         <Form className="contact-form" style={{ width: '100%'}}>
             <div className="form-group">
             <FormGroup>
@@ -56,9 +56,6 @@ class Contact extends Component {
             
             <button type="submit" class="btn btn-primary">Send Message</button>
         </Form>
-        </div>
-        <div className="col-lg-2"></div>
-        <div className="col-lg-6">
         </div>
     </div>
 </div>
