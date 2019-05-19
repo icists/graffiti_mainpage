@@ -12,7 +12,7 @@ export class MainImg extends Component {
           <div>
                 <p className="font-weight-bold text-uppercase main-img-bottom">Whatever you do, Be Crazy!</p>
                 {/* <Link to='/' style={{marginRight : '20px'}}><button type="button" class="btn btn-primary">Apply</button></Link> */}
-                <Link to='/'><button type="button" class="btn btn-danger">Contact Us</button></Link>
+                <Link to='/'><button type="button" class="btn btn-primary">Contact Us</button></Link>
           </div>
           </div>
           <div className="col-lg-2"></div>
