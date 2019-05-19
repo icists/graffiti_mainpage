@@ -51,7 +51,7 @@ class Contact extends Component {
             <div className="form-group">
             <FormGroup>
                 <Label for="message">Message:</Label>
-                <textarea rows="4" className="form-control text-uppercase">Message</textarea>
+                <textarea rows="4" className="form-control text-uppercase"></textarea>
             </FormGroup>
             </div>
 
