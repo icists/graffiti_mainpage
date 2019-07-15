@@ -4,10 +4,10 @@ import { Form, FormGroup, Input, Label } from 'reactstrap'
 class Contact extends Component {
     render(){
         return (
-<section id="contact">
+<section id="contact" className="gray-block">
 <div className="row">
 <div className="col-lg-2"></div>
-<div className="col-lg-8">
+<div className="col-lg-8 pr-0">
 <h1>Contact</h1>
     <div className="row">
         <div className="col-lg-6">
@@ -61,7 +61,7 @@ class Contact extends Component {
         </div>
     </div>
 </div>
-<div className="col-lg-2"></div>
+<div className="col-lg-2 pr-0"></div>
 </div>
 </section>
         );

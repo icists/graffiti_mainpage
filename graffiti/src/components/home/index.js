@@ -1,23 +1,23 @@
-import React, { Component } from 'react'
-import MainImage from './MainImage'
-// import About from './About'
-// import Program from './Program'
-// import Price from './Price'
-import FAQ from './FAQ'
-import Contact from './Contact'
-import Footer from './Footer'
+import React, { Component } from 'react';
+import MainImage from './MainImage';
+import About from './About';
+import FAQ from './FAQ';
+import Contact from './Contact';
+import Program from './Program';
+import Timetable from './Timetable';
+import Sponsor from './Sponsor';
 
 class Home extends Component {
   render() {
     return (
       <div>
         <MainImage />
-        {/* <About />
+        <About />
         <Program />
-        <Price /> */}
+        <Timetable />
+        <Sponsor />
         <FAQ />
         <Contact />
-        <Footer />
       </div>
     )
   }

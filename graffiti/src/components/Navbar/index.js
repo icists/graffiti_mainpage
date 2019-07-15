@@ -14,17 +14,23 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
-                <li className="nav1-item">
+                {/* <li className="nav1-item">
                 <Link to='/' className="nav-link">HOME</Link>
+                </li> */}
+                {/* <li className="nav-item">
+                <Link to='#contact' className="nav-link">CONT</Link>
+                </li> */}
+                <li className="nav-item" style={{textAlign:'right', marginTop: '3px', marginBottom: '3px'}}>
+                <a href="http://event-us.kr/7541" target="blank"><button type="button" class="btn btn-info">창업팀 Apply</button></a>
                 </li>
-                <li className="nav-item">
-                <Link to='#contact' className="nav-link">CONTACT</Link>
+                <li className="nav-item" style={{textAlign:'right', marginTop: '3px', marginBottom: '3px'}}>
+                <a href="http://event-us.kr/7517" target="blank"><button type="button" class="btn btn-danger">참가자 Apply</button></a>
                 </li>
             </ul>
             </div>
         </nav>        
         </div>
-        <div className="col-lg-2"></div>
+        <div className="col-lg-2 pr-0"></div>
     </section>
     )
 }

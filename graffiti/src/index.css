@@ -15,14 +15,28 @@ div{
 /* BlockStyle */
 .white-block {
   background: white;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.gray-block {
+  background: #efefef;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #777;
+}
+.graffiti-block {
+  background: #f3b5a8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #000000;
 }
 
 /* Navigation */
 #nav-bar {
   top: 0;
   z-index: 10;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .nav-css{
   border-bottom: 1px solide grid;
@@ -55,7 +69,7 @@ div{
 /* mainimg */
 #main-img{
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./assets/img/slideimg.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./assets/img/graffiti_main.png);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -144,13 +158,6 @@ div{
 .time {
   margin-top: 40px;
 }
-.icon{
-  font-size: 100px;
-  margin: 20px auto;
-  padding: 20px;
-  height: 200px;
-  width: 200px;
-}
 #program p{
   font-size: 14px;
   margin-top: 20px;
@@ -180,7 +187,8 @@ h1:after{
   display: block;
   height: 3px;
   width: 170px;
-  margin: 20px auto 5px;
+  margin: 30px auto 5px;
+  margin-bottom: 50px;
 }
 .profile-pic{
   margin-top: 25px;
@@ -353,12 +361,6 @@ a{
 }
 
 /* Contact */
-#contact{
-  background: #efefef;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  color: #777;
-}
 .contact-form{
   padding: 15px;
 }

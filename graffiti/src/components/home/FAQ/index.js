@@ -32,13 +32,13 @@ const FAQ = () => (
           <hr style={{margin:'0'}}/>
           <AccordionItem title="지원서에 작성한 개인정보는 어떻게 처리되나요?">
             <p className="faq-ans">
-            상단 배너 또는 홈의 ‘APPLY’버튼을 누르시면 EVENTUS를 통해 참가 신청하실 수 있습니다. 
+            행사기간에 한해 참가 창업팀들에게 제공되며 행사 이후에는 모두 안전하게 파기됩니다. 
             </p>
           </AccordionItem>
           <hr style={{margin:'0'}}/>
           <AccordionItem title="기업에게 개인정보를 제공하고 싶지 않은 경우 참가할 수 없나요?">
             <p className="faq-ans">
-            참가하실 수 있습니다. 다만, ‘2부: 네트워킹 파티’에서 Matchmaking의 참여가 제한됩니다.
+            참가하실 수 있습니다. 다만, Matchmaking의 참여가 제한됩니다.
             </p>
           </AccordionItem>
           <hr style={{margin:'0'}}/>
@@ -48,33 +48,27 @@ const FAQ = () => (
             </p>
           </AccordionItem>
           <hr style={{margin:'0'}}/>
-          <AccordionItem title="참가 기업의 정보가 사전에 제공되나요?">
+          <AccordionItem title="참가 창업팀의 정보가 사전에 제공되나요?">
             <p className="faq-ans">
-            아니요. 참가 기업의 정보는 사전에 제공되지 않습니다.
+            네, 페이스북과 공식 홈페이지를 통해 참고하실 수 있는 기초자료가 제공될 예정입니다.
             </p>
           </AccordionItem>
           <hr style={{margin:'0'}}/>
-          <AccordionItem title="미성년자도 2부에 참석할 수 있나요?">
+          <AccordionItem title="미성년자도 Matchmaking & Party에 참석할 수 있나요?">
             <p className="faq-ans">
-            2부는 대전 시내의 클럽에서 진행되므로 미성년자는 참여할 수 없습니다. 양해 부탁 드립니다.
-            </p>
-          </AccordionItem>
-          <hr style={{margin:'0'}}/>
-          <AccordionItem title="기업에게 개인정보를 제공하고 싶지 않은 경우 참가할 수 없나요?">
-            <p className="faq-ans">
-            참가하실 수 있습니다. 다만, ‘2부: 네트워킹 파티’에서 Matchmaking의 참여가 제한됩니다.
+            Matchmaking & Party는 대전 시내의 클럽에서 진행되므로 미성년자는 참여할 수 없습니다. 양해 부탁 드립니다.
             </p>
           </AccordionItem>
           <hr style={{margin:'0'}}/>
           <AccordionItem title="숙식이 제공되나요?">
             <p className="faq-ans">
-            일반 참가자의 경우 숙식은 따로 제공되지 않지만 2부에서 주류 및 간단한 다과가 제공될 예정입니다. 스타트업 및 VC의 경우 따로 식사 및 네트워킹 자리가 마련되어 있습니다.
+            일반 참가자의 경우 숙식은 따로 제공되지 않지만 Matchmaking & Party에서 주류 및 간단한 다과가 제공될 예정입니다. 참가 창업팀 및 스타트업 관계자, 후원사의 경우 따로 식사 자리가 마련되어 있습니다.
             </p>
           </AccordionItem>
           <hr style={{margin:'0'}}/>
           <AccordionItem title="교통편이 제공되나요?">
             <p className="faq-ans">
-            서울->대전의 편도 버스가 준비되어 있습니다. 탑승을 희망하시는 경우 참가 신청 시 체크해 주시면 됩니다.
+            서울->대전의 편도 버스가 준비되어 있습니다. 또한, 대전 시내를 이동할 때도 저희가 준비한 버스를 이용합니다. 자세한 사항은 추후 공지됩니다.
             </p>
           </AccordionItem>
           <hr style={{margin:'0'}}/>
@@ -85,7 +79,7 @@ const FAQ = () => (
           <hr style={{margin:'0'}}/>
         </Accordion>
       </div>
-      <div className="col-lg-2"></div>
+      <div className="col-lg-2 pr-0"></div>
     </div>
   </div>
 );
