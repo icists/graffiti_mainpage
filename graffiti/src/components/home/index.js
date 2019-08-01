@@ -6,6 +6,7 @@ import Contact from './Contact';
 import Program from './Program';
 import Timetable from './Timetable';
 import Sponsor from './Sponsor';
+import Speakers from './Speakers';
 
 class Home extends Component {
   render() {
@@ -15,6 +16,7 @@ class Home extends Component {
         <About />
         <Program />
         <Timetable />
+        <Speakers/>
         <Sponsor />
         <FAQ />
         <Contact />
